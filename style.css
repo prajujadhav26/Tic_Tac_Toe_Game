@@ -1,0 +1,114 @@
+#cont1{
+    background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7) ), url('tic.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 625px;
+    backdrop-filter: blur(50px);
+    /* filter: blur(30px); */
+}
+
+#div1{
+    border: 2px solid white;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    width: 320px;
+    margin-left: 390px;
+}
+
+#heading{
+    text-align: center;
+    color: rgb(238, 220, 220);
+    font-weight: 300px;
+    padding-top: 10px;
+}
+
+#div2{
+    margin-left: 80px;
+}
+
+#heading2{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+table{
+    margin-top: 30px;
+    /* border-collapse: collapse; */
+    border-collapse: separate;
+    border-spacing: 0;
+    padding: 0px;
+    margin: 10px auto;
+    background-color: #c7ca1d;
+    border-radius: 20px;
+}
+
+table tr td{
+    height: 80px;
+    width: 80px;
+    border: 1px solid #367888;
+    border-radius: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+
+table tr td:hover {
+    background: #d346b4;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.but{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background: linear-gradient(rgb(95, 185, 95) , rgb(56, 26, 94));
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 70px;
+}
+
+.text{
+    height: 20px;
+    color: white;
+    text-align: center;
+}
+
+#message{
+    margin-left: 100px;
+}
+
+.but:hover{
+    color: aqua;
+}
+
+#btn2{
+    margin-left: 190px;
+}
+
+#heading3{
+    /* margin-bottom:150px ; */
+    color: white;
+    margin-left: 140px;
+}
+
+#heading4{
+    color: white;
+}
+
+#result{
+    color: white;
+    margin-top: 80px;
+    margin-left: 130px;
+    font-size: xx-large;
+    font-family: cursive;
+    font-weight: 600;
+}
+
+#head{
+    color: white;
+    margin-left: 20px;
+}
